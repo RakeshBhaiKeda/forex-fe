@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosApi = axios.create( {
-    baseURL: `http://127.0.0.1:9000/api/v1/`,
+    baseURL: `https://forexalgo.anipixai.com/api/v1/`,
 } );
 export const axiosInstance = axiosApi;
 
